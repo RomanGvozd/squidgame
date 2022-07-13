@@ -1,0 +1,61 @@
+.game {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #231F20;
+    padding: 4.62rem 0 12.5rem;
+    
+    .marketplace__back {
+        width: 1rem;
+        height: 1rem;
+        cursor: pointer;
+        margin-bottom: 2.12rem;
+
+    }
+
+    .game-wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .game__logo {
+            width: 28.62rem;
+            height: 5.43rem;
+            margin-top: 4.37rem;
+        }
+
+        .game__info {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 5.12rem;
+            background: #161414;
+            border: 1.25rem solid #0D0C0C;
+            margin-top: 4.37rem;
+
+            .info__text {
+                font-weight: 700;
+                font-size: 2.25rem;
+                line-height: 3.31rem;
+                text-align: center;
+                text-transform: uppercase;
+                color: rgba(255, 255, 255, 0.65);
+                text-shadow: 0px 0px 2.81rem #3F3B3B;
+            }
+
+            .info__count {
+                font-weight: 700;
+                font-size: 8rem;
+                line-height: 13.31rem;
+                color: #FFFFFF;
+                text-shadow: 0px 0px 5.75rem #326328;
+            }
+
+        }
+
+    }
+
+}

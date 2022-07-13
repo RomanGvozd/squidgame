@@ -1,0 +1,59 @@
+.marketplace {
+    width: 100%;
+    padding: 6.25rem 0;
+    display: flex;
+    justify-content: center;
+    background: #231F20;
+
+    .marketplace-wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        .marketplace__block {
+            width: 50%;
+
+            .marketplace__title {
+                font-weight: 700;
+                font-size: 3rem;
+                line-height: 4.12rem;
+                color: #FFFFFF;
+            }
+
+            .marketplace__text {
+                width: 24.5rem;
+                font-weight: 400;
+                font-size: 1.12rem;
+                line-height: 160%;
+                color: rgba(255, 255, 255, 0.7);
+                margin-top: 1.25rem;
+            }
+
+            .marketplace__image {
+                width: 37.37rem;
+                height: 34.31rem;
+                background: #C4C4C4;
+                border-radius: 5px;
+                margin-top: 3.75rem;
+ 
+            }
+
+            .line {
+                width: 5.18rem;
+                height: 4px;
+                background: #FD287E;
+                border-radius: 5px;
+                margin-top: 2.5rem;
+            }
+
+        }
+
+        .block-right {
+            padding-left: 7.68rem;
+            padding-top: 4.12rem;
+
+        }
+
+    }
+
+}

@@ -1,0 +1,93 @@
+.events {
+    width: 100%;
+    padding: 6.25rem 0;
+    display: flex;
+    justify-content: center;
+    background: #231F20;
+
+    .events-wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        .events-block {
+            width: 50%;
+
+            .events__title {
+                font-weight: 700;
+                font-size: 3rem;
+                line-height: 4.12rem;
+                color: #FFFFFF;
+
+            }
+
+            .event__date {
+                font-weight: 500;
+                font-size: 1.25rem;
+                line-height: 1.68rem;
+                color: #FFFFFF;
+                margin-top: 1.87rem;
+
+            }
+
+            .event__title {
+                font-weight: 800;
+                font-size: 1.25rem;
+                line-height: 1.68rem;
+                color: #FD287E;
+                margin-top: 0.62rem;
+
+            }
+
+            .event__text {
+                width: 30.81rem;
+                font-weight: 400;
+                font-size: 1.12rem;
+                line-height: 160%;
+                color: rgba(255, 255, 255, 0.7);
+                margin-top: 0.93rem;
+
+            }
+
+        }
+
+        .block-left {
+            padding-left: 6.43rem;
+            border-left: 1px solid rgba(255, 255, 255, 0.1);
+
+            .blockchain__title {
+                font-weight: 500;
+                font-size: 1.5rem;
+                line-height: 153.52%;
+                color: #FFFFFF;
+                margin-top: 7.5rem;
+            }
+
+            .blockchain__item {
+                width: 30.81rem;
+                height: 5.06rem;
+                background: #292425;
+                border-radius: 0.31rem;
+                margin-top: 1.25rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .item-iamge {
+                    width: 10.81rem;
+                    height: 2.12rem;
+
+                    &:last-child {
+                        height: 3.93rem;
+
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+}

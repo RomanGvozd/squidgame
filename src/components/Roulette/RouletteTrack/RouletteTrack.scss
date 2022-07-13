@@ -1,0 +1,77 @@
+.roulette-track-wrapper {
+    width: 100%;
+    background: #231F20;
+    overflow: hidden;
+    padding: 1rem 0;
+    position: relative;
+
+    .roulette-track {
+        display: flex;
+        transition: 5s;
+        
+
+        .track__item {
+            padding: 2.81rem 3.12rem;
+            background: #292425;
+            border-radius: 5px;
+            margin: 0 10px;
+            
+        }
+
+    }
+
+    .roulette__active-wrapper {
+        width: 3.5rem;
+        height: 100%;
+        position: absolute;
+        left: 49%;
+        top: 0;
+
+        .roulette__active {
+            width: 100%;
+            height: 100%;
+            position: relative;
+
+            .active__arrow-top {
+                width: 3.5rem;
+                height: 2.12rem;
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+
+            .active__arrow-bottom {
+                width: 3.5rem;
+                height: 2.12rem;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                transform: rotate(180deg);
+            }
+
+        }
+
+    }
+
+}
+
+.roulette-wrapper-button {
+    width: 100%;
+    background: #231F20;
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0 12.5rem;
+
+    .button {
+        width: 18.06rem;
+        padding: 1.12rem;
+        background: none;
+        border: 2px solid #FD287E;
+        border-radius: 7.5rem;
+        font-weight: 700;
+        font-size: 1.12rem;
+        line-height: 153.52%;
+        color: #FD287E;
+    }
+
+}

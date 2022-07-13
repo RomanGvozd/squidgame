@@ -1,0 +1,180 @@
+.roadmap {
+    width: 100%;
+    padding: 6.25rem 0 12.5rem;
+    display: flex;
+    justify-content: center;
+    background: #231F20;
+
+    .roadmap-wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        .roadmap__block-left {
+            width: 40%;
+
+            .roadmap__title {
+                font-weight: 700;
+                font-size: 3rem;
+                line-height: 4.12rem;
+                color: #FFFFFF;
+                margin-top: 0.93rem;
+            }
+
+            .item-wrapper {
+                margin-top: 3.75rem;
+
+                .item__title {
+                    font-weight: 600;
+                    font-size: 1.5rem;
+                    line-height: 167.02%;
+                    color: #FD287E;
+                }
+            }
+
+            .listItem-wrapper {
+                margin-top: 0.93rem;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+
+                .listItem-checkbox {
+                    width: 1.37rem;
+                    height: 1.37rem;
+                    border: 1px solid rgba(255, 255, 255, 0.25);
+                    border-radius: 0.31rem;
+                }
+
+                .listItem-checkbox-active {
+                    width: 1.37rem;
+                    height: 1.37rem;
+                    border: 1px solid #FD287E;
+                    border-radius: 0.31rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .checkbox__iamge {
+                        width: 60%;
+                        height: 60%;
+                    }
+
+                }
+
+                .listItem__title {
+                    font-weight: 400;
+                    font-size: 1.25rem;
+                    line-height: 167.02%;
+                    color: #FFFFFF;
+                    margin-left: 0.93rem;
+                }
+
+            }
+
+        }
+
+        .roadmap__block-right {
+            width: 60%;
+            padding-left: 7.68rem;
+            border-left: 1px solid rgba(255, 255, 255, 0.1);
+
+            .roadmap__wrapper-title {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .roadmap__title {
+                    font-weight: 700;
+                    font-size: 3rem;
+                    line-height: 4.12rem;
+                    color: #FFFFFF;
+                }
+
+                .roadmap__text {
+                    width: 24.5rem;
+                    font-weight: 500;
+                    font-size: 1.12rem;
+                    line-height: 145%;
+                    color: #FFFFFF;
+
+                    span {
+                        color: #FD287E;
+                    }
+
+                }
+
+            }
+
+            .list {
+                margin-top: 3.12rem;
+                padding-bottom: 2.81rem;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+                .list__item {
+                    display: flex;
+                    align-items: center;
+                    margin-top: 1.56rem;
+                    
+                    .item__iamge {
+                        width: 0.68rem;
+                        height: 0.7rem;
+                    }
+
+                    .item__text {
+                        font-weight: 400;
+                        font-size: 1.12rem;
+                        line-height: 145%;
+                        color: #FFFFFF;
+                        margin-left: 0.93rem;
+
+                    }
+
+                }
+
+            }
+
+            .roadmap__subtitle {
+                width: 24.5rem;
+                font-weight: 500;
+                font-size: 1.5rem;
+                line-height: 155%;
+                color: #FFFFFF;
+                margin-top: 2.18rem;
+
+                span {
+                    color: #FD287E;
+                }
+
+            }
+
+            .token__list {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                margin-top: 2.25rem;
+
+                .token__item {
+                    width: 49%;
+                    padding: 1.87rem;
+                    background: #292425;
+                    border-radius: 0.31rem;
+                    margin-top: 1.25rem;
+
+                    .token__text {
+                        font-weight: 700;
+                        font-size: 1.12rem;
+                        line-height: 153.02%;
+                        color: rgba(255, 255, 255, 0.7);
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+}

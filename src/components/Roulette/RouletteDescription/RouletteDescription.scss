@@ -1,0 +1,187 @@
+.roulette-description {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #231F20;
+    padding: 12.5rem 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+
+    .roulette-description-wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        .roulette-description-block {
+            width: 45%;
+
+            .roulette-description__title {
+                font-weight: 700;
+                font-size: 2.25rem;
+                line-height: 153.02%;
+                color: #FFFFFF;
+
+            }
+
+            .roulette-description__text {
+                font-weight: 500;
+                font-size: 1.12rem;
+                line-height: 180%;
+                color: rgba(255, 255, 255, 0.8);
+                margin-top: 2.5rem;
+                margin-bottom: 5.62rem;
+                
+            }
+
+            .ticket {
+                width: 100%;
+                padding: 2.5rem;
+                background: #292425;
+                border-radius: 0.93rem;
+                display: flex;
+                margin-top: 1.25rem;
+    
+                .ticket__image {
+                    width: 5.18rem;
+                    height: 3.75rem;
+                    object-fit: cover;
+                }
+    
+                .tiket__info {
+                    margin-left: 1.25rem;
+    
+                    .info__title {
+                        font-weight: 500;
+                        font-size: 1.12rem;
+                        line-height: 1.56rem;
+                        color: rgba(255, 255, 255, 0.65);
+                    }
+    
+                    .info__subtitle {
+                        font-weight: 700;
+                        font-size: 3rem;
+                        line-height: 4.12rem;
+                        color: #FFFFFF;
+                        margin-top: 0.62rem;
+    
+                        span: {
+                            font-size: 1rem;
+    
+                        }
+                        
+                    }
+    
+                }
+    
+            }
+
+        }
+
+        .roulette-description-block-right {
+            width: 55%;
+            padding-left: 7.68rem;
+
+            .roulette-description__title {
+                font-weight: 700;
+                font-size: 2.25rem;
+                line-height: 153.02%;
+                color: #FFFFFF;
+
+            }
+
+            .rates-list {
+                width: 100%;
+                height: 65rem;
+                overflow-y: auto;
+                padding-right: 3.37rem;
+                margin-top: 2.5rem;
+
+                .list__item {
+                    width: 100%;
+                    padding: 1.68rem 2.5rem;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    border: 1px solid #292425;
+                    border-radius: 97px;
+                    margin-bottom: 1.87rem;
+
+                    .item__text {
+                        font-weight: 500;
+                        font-size: 1.25rem;
+                        line-height: 153.02%;
+                        color: #FFFFFF;
+
+                    }
+
+                    .item__image {
+                        width: 5.18rem;
+                        height: 3.75rem;
+
+                    }
+
+                    .item__count {
+                        background: #292425;
+                        border-radius: 120px;
+                        padding: 1.25rem 1.87rem;
+                        font-weight: 700;
+                        font-size: 1.12rem;
+                        line-height: 153.52%;
+                        color: #FD287E;
+
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+    .wrapper-converter {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2.5rem 0;
+        margin-top: 6.25rem;
+
+        .block-converter {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .converter__text {
+                font-weight: 500;
+                font-size: 1.25rem;
+                line-height: 1.68rem;
+                color: #FFFFFF;
+
+            }
+
+            .converter__image {
+                width: 5.18rem;
+                height: 3.75rem;
+                object-fit: cover;
+                margin-left: 2.5rem;
+
+            }
+
+        }
+
+        .converter__button {
+            width: 18.06rem;
+            padding: 1.18rem;
+            background: #292425;
+            border-radius: 7.5rem;
+            border: none;
+            font-weight: 700;
+            font-size: 1.12rem;
+            line-height: 153.52%;
+            color: #FD287E;
+
+        }
+
+    }
+
+}

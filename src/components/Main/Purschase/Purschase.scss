@@ -1,0 +1,71 @@
+.purschase {
+    width: 100%;
+    padding: 6.25rem 0;
+    display: flex;
+    justify-content: center;
+    background: #231F20;
+
+    .purschase-wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        .purschase-info {
+
+            .info__title {
+                width: 43.81rem;
+                font-weight: 700;
+                font-size: 2.5rem;
+                line-height: 3.43rem;
+                color: #FFFFFF;
+
+                span {
+                    color: #FD287E;
+                }
+
+            }
+
+            .info__text {
+                width: 30.93rem;
+                font-weight: 400;
+                font-size: 1.5rem;
+                line-height: 160%;
+                color: rgba(255, 255, 255, 0.7);
+                margin-top: 1.87rem;
+            }
+
+            .info__wrapper-button {
+                margin-top: 4.37rem;
+                display: flex;
+                align-items: center;
+
+                .button {
+                    background: none;
+                    border: 1px solid #FD287E;
+                    border-radius: 7.5rem;
+                    padding: 1.18rem 2.93rem;
+                    font-weight: 700;
+                    font-size: 1.12rem;
+                    line-height: 153.52%;
+                    color: #FD287E;
+                }
+
+                .binance-iamge {
+                    width: 10.81rem;
+                    height: 2.12rem;
+                    margin-left: 3.43rem;
+                }
+
+            }
+
+        }
+
+        .purschase__image {
+            width: 25.31rem;
+            height: 36.18rem;
+
+        }
+
+    }
+
+}

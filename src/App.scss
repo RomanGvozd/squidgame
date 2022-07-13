@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Manrope';
+  font-style: normal;
+}
+
+@mixin responsive-font($responsive, $min, $max: false, $fallback: false) {
+  $responsive-unitless: $responsive / ($responsive - $responsive + 1);
+  $dimension: if(unit($responsive) == "vh", "height", "width");
+  $min-breakpoint: $min / $responsive-unitless * 100;
+
+  @media (max-#{$dimension}: #{$min-breakpoint}) {
+    font-size: $min;
+  }
+
+  @if $max {
+    $max-breakpoint: $max / $responsive-unitless * 100;
+
+    @media (min-#{$dimension}: #{$max-breakpoint}) {
+      font-size: $max;
+    }
+  }
+
+  @if $fallback {
+    font-size: $fallback;
+  }
+
+  font-size: $responsive;
+}
+
+body,
+html {
+@include responsive-font(0.835vw, 0.8rem);
+
+@media (max-width: 1199.98px) {
+  font-size: 0.8rem;
+}
+
+margin: 0;
+font-family: "SF UI Display", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+  "Helvetica Neue", sans-serif;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar {
+  background: #231F20;
+  width: 5px;
+  height: 5px;
+
+}
+
+::-webkit-scrollbar-thumb {
+  width: 5px;
+  background: #FD287E;
+  border-radius: 1rem;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  // transition: 0.3s;
+
+  // &:hover {
+  //     transform: scale(1.05);
+  // }
+
+  // &:active {
+  //     transform: scale(1);
+  // }
+
+}
+
+.content-wrapper {
+  width: 76rem;
+}
+
+.content-line {
+  width: 100vw;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.1); 
+}

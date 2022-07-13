@@ -1,0 +1,67 @@
+.timer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #231F20;
+    padding: 12.5rem 0 6.25rem 0;
+
+    .timer__logo {
+        width: 32.62rem;
+        height: 6.18rem;
+
+    }
+
+    .timer__title {
+        font-weight: 500;
+        font-size: 2.25rem;
+        line-height: 3.06rem;
+        letter-spacing: 0.15em;
+        color: #FFFFFF;
+        margin-top: 3.12rem;
+
+        span {
+            color: #FD287E;
+        }
+
+    }
+
+    .timer-wrapper {
+        display: flex;
+        margin-top: 1.87rem;
+
+        .timer__item {
+            margin: 0 0.62rem;
+
+            .item__block {
+                background: #292425;
+                border-radius: 0.3rem;
+                padding: 1.67rem 3.43rem;
+
+                .item__title {
+                    font-weight: 700;
+                    font-size: 4rem;
+                    line-height: 5.43rem;               
+                    color: #FD287E;
+
+                }
+
+            }
+
+            .item__text {
+                font-weight: 400;
+                font-size: 1.5rem;
+                line-height: 2.06rem;
+                letter-spacing: 0.15em;
+                text-align: center;
+                color: rgba(255, 255, 255, 0.45);
+                margin-top: 1.81rem;
+
+            }
+
+        }
+
+    }
+
+}
