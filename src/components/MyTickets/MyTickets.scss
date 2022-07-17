@@ -19,6 +19,15 @@
         margin-top: 4.62rem;
     }
 
+    @media screen and (max-width: 600px) {
+
+        .mytickets__title {
+            width: 100%;
+            text-align: center;
+        }
+        
+    }
+
     .tickets {
         width: 100%;
         display: flex;
@@ -62,10 +71,70 @@
                     
                 }
 
+                @media screen and (max-width: 400px) {
+
+                    .info__title {
+                        width: 100%;
+                        text-align: center;
+                    }
+    
+                    .info__subtitle {
+                        width: 100%;
+                        text-align: center;
+                        
+                    }
+                    
+                }
+
+            }
+
+            @media screen and (max-width: 400px) {
+
+                .tiket__info {
+                    margin-left: 0;
+                    margin-top: 1.5rem;
+                }
+                
             }
 
         }
 
+        @media screen and (max-width: 800px) {
+
+            .ticket {
+                width: 100%;
+                margin-top: 1.5rem;
+          
+            }
+            
+        }
+
+        @media screen and (max-width: 400px) {
+
+            .ticket {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+          
+            }
+            
+        }
+
+    }
+
+    @media screen and (max-width: 800px) {
+
+        .tickets {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+      
+        }
+        
     }
 
     .wrapper-converter {
@@ -112,6 +181,47 @@
 
         }
 
+        @media screen and (max-width: 800px) {
+
+            .block-converter {
+                margin-top: 1.5rem;
+          
+            }
+
+            .converter__button {
+                margin-top: 1.5rem;
+
+            }
+            
+        }
+
+        @media screen and (max-width: 600px) {
+
+            .block-converter {
+                width: 100%;
+          
+            }
+
+            .converter__button {
+                width: 100%;
+
+            }
+            
+        }
+
+    }
+
+    @media screen and (max-width: 800px) {
+
+        .wrapper-converter {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+      
+        }
+        
     }
 
     .mytickets__title2 {
@@ -129,6 +239,21 @@
         color: rgba(255, 255, 255, 0.8);
         margin-top: 2.5rem;
 
+    }
+
+    @media screen and (max-width: 600px) {
+
+        .mytickets__title2 {
+            width: 100%;
+            text-align: center;
+        }
+    
+        .mytickets__text {
+            width: 100%;
+            text-align: center;
+    
+        }
+        
     }
 
 }
