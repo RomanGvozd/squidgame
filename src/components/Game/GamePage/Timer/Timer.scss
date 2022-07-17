@@ -12,6 +12,7 @@
         line-height: 3.06rem;
         letter-spacing: 0.15em;
         color: #FFFFFF;
+        margin-top: 3.12rem;
 
         span {
             color: #FD287E;
@@ -20,8 +21,11 @@
     }
 
     .timer-wrapper {
-        display: flex;
         margin-top: 1.87rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
 
         .timer__item {
             margin: 0 0.62rem;
@@ -41,6 +45,18 @@
 
             }
 
+            @media screen and (max-width: 800px) {
+
+                .item__block {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                }
+                
+            }
+
             .item__text {
                 font-weight: 400;
                 font-size: 1.5rem;
@@ -52,6 +68,20 @@
 
             }
 
+        }
+
+        @media screen and (max-width: 800px) {
+
+            .timer__item {
+                width: 40%;
+                margin-bottom: 1.5rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+          
+            }
+            
         }
 
     }

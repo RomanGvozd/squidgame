@@ -22,7 +22,7 @@ function Profile() {
         }
     }
 
-    let widht = (cards.length - 3) * 19.31
+    let widht = (cards.length - 2) * 19.31
 
     const handleRight = () => {
         console.log('widht ' + widht)

@@ -16,11 +16,13 @@ function MarketplaceCards() {
                 </h2>
                 <section className="marketplace-cards__cards">
                     {nft.map((item)=>(
-                        <img 
-                            key={item.id}
-                            className="cards__image" 
-                            src={require(`${item.src}`)} 
-                        />
+                        <div className="cards__image-wrapper">
+                            <img 
+                                key={item.id}
+                                className="cards__image" 
+                                src={require(`${item.src}`)} 
+                            />
+                        </div>
                     ))}
                 </section>
                 <div className="marketplace-cards__block-button">

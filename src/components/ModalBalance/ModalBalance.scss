@@ -25,6 +25,7 @@
         padding: 2.5rem;
         background: #272525;
         border-radius: 1.87rem;
+        overflow-y: auto;
 
         animation-duration: 0.5s;
         animation-name: spawn;
@@ -87,6 +88,16 @@
             
         }
 
+    }
+
+    @media screen and (max-width: 1200px) {
+
+        .modal {
+            width: 90%;
+            height: 90%;
+            padding: 1rem;
+        }
+        
     }
 
 }

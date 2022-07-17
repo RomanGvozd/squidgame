@@ -55,6 +55,15 @@
 
         }
 
+        @media screen and (max-width: 1100px) {
+
+            .marketplace__image {
+                width: 100%;
+          
+            }
+            
+        }
+
         .marketplace__info {
             width: 55%;
             padding-left: 7.68rem;
@@ -134,9 +143,104 @@
                     
                 }
 
+                @media screen and (max-width: 1100px) {
+
+                    .wrapper-count {
+                        width: 48%;
+            
+                    }
+    
+                    .button {
+                        width: 48%;
+                        margin-left: 0;
+                        
+                    }
+                    
+                }
+
+                @media screen and (max-width: 600px) {
+
+                    .wrapper-count {
+                        width: 100%;
+            
+                    }
+    
+                    .button {
+                        width: 100%;
+                        margin-top: 2rem;
+                        
+                    }
+                    
+                }
+
+            }
+
+            @media screen and (max-width: 1100px) {
+
+                .info__title {
+                    width: 100%;
+                    text-align: center;
+    
+                }
+    
+                .info__text {
+                    width: 100%;
+                    text-align: center;
+    
+                }
+    
+                .info__title-prise {
+                    width: 100%;
+                    text-align: center;
+    
+                }
+
+                .wrapper-button {
+                    display: flex;
+                    justify-content: space-between;
+
+                }
+                
+            }
+
+            @media screen and (max-width: 600px) {
+
+                .wrapper-button {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+
+                }
+                
             }
 
         }
 
+        @media screen and (max-width: 1100px) {
+
+            .marketplace__info {
+                width: 100%;
+                padding-left: 0;
+                margin-top: 2.5rem;
+          
+            }
+            
+        }
+
     }
+
+    @media screen and (max-width: 1100px) {
+
+        .marketplace-wrapper {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+      
+        }
+        
+    }
+
 }

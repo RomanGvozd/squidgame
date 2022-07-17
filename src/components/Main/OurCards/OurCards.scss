@@ -25,6 +25,17 @@
         margin-top: 12.5rem;
     }
 
+    @media screen and (max-width: 600px) {
+
+        .ourcards__title {
+            width: 100%;
+            text-align: center;
+            margin-top: 0;
+
+        }
+        
+    }
+
     .button-wrapper {
         width: 100%;
         display: flex;
@@ -52,20 +63,54 @@
             color: #FD287E;
         }
 
+        @media screen and (max-width: 600px) {
+
+            .ourcards__text {
+                width: 100%;
+                text-align: center;
+            }
+    
+            .ourcards__button {
+                width: 100%;
+                margin-top: 1.5rem;
+            }
+            
+        }
+
+    }
+
+    @media screen and (max-width: 600px) {
+
+        .button-wrapper {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        
     }
 
     .cards {
         width: 100%;
         display: flex;
-        justify-content: space-between;
         align-items: center;
         margin-top: 4.37rem;
+        overflow: hidden;
 
-        .cards__item {
-            width: 18.06rem;
-            height: 29.62rem;
-            object-fit: cover;
+        .cards-line {
+            width: 100%;
+            display: flex;
+
+            .cards__item {
+                width: 18.06rem;
+                height: 29.62rem;
+                object-fit: cover;
+                margin-right: 1.5rem;
+            }
+
         }
+
     }
 
     .wrapper-button {

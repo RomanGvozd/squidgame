@@ -39,6 +39,24 @@
 
         }
 
+        @media screen and (max-width: 1100px) {
+
+            .mynft__button {
+                margin-top: 2.5rem;
+          
+            }
+            
+        }
+
+        @media screen and (max-width: 600px) {
+
+            .mynft__button {
+                width: 100%;
+          
+            }
+            
+        }
+
         .mynft__text {
             font-style: normal;
             font-weight: 500;
@@ -48,22 +66,70 @@
 
         }
 
+        @media screen and (max-width: 600px) {
+            .mynft__text {
+                width: 100%;
+                text-align: center;
+    
+            }
+            
+        }
+
+    }
+
+    @media screen and (max-width: 1100px) {
+
+        .mynft__header {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 2.5rem;
+      
+        }
+        
     }
 
     .mynft__cards {
         width: 100%;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 25% 25% 25% 25%;
         grid-gap: 1rem;
         margin-top: 4.37rem;
-        
-        .mynft__cards-item {
-            height: 30.12rem;
+
+        .cards__image-wrapper {
             cursor: pointer;
-    
+
+            .mynft__cards-item {
+                width: 100%;
+        
+            }
+
         }
 
     }
+
+    @media screen and (max-width: 1100px) {
+        .mynft__cards {
+            width: 100%;
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+      
+        }
+        
+    }
+
+    @media screen and (max-width: 600px) {
+        .mynft__cards {
+            width: 100%;
+            display: grid;
+            grid-template-columns: 50% 50%;
+      
+        }
+        
+    }
+
 
     .mynft__wrapper-button {
         width: 100%;

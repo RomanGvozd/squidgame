@@ -29,6 +29,20 @@
                 margin-top: 1.25rem;
             }
 
+            @media screen and (max-width: 1000px) {
+
+                .marketplace__title {
+                    width: 100%;
+                    text-align: center;
+                }
+    
+                .marketplace__text {
+                    width: 100%;
+                    text-align: center;
+                }
+                
+            }
+
             .marketplace__image {
                 width: 37.37rem;
                 height: 34.31rem;
@@ -36,6 +50,15 @@
                 border-radius: 5px;
                 margin-top: 3.75rem;
  
+            }
+
+            @media screen and (max-width: 1000px) {
+
+                .marketplace__image {
+                    width: 100%;
+     
+                }
+                
             }
 
             .line {
@@ -54,6 +77,37 @@
 
         }
 
+        @media screen and (max-width: 1000px) {
+
+            .marketplace__block {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+
+            .block-right {
+                padding-left: 0;
+                padding-top: 4.12rem;
+    
+            }
+            
+        }
+
+    }
+
+    @media screen and (max-width: 1000px) {
+
+        .marketplace-wrapper {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+        }
+        
     }
 
 }

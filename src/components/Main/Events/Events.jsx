@@ -30,7 +30,7 @@ function Events() {
                         ))}
 
                     </div>
-                    <div className="events-block block-left">
+                    <div className="events-block block-right">
                         <h4 className="events__title">
                             Our platform 
                         </h4>

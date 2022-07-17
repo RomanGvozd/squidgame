@@ -36,14 +36,16 @@ function OurCards() {
                     </button>
                 </div>
                 <section className='cards'>
-                    {cards.map((item)=>(
-                        <img
-                            key={item.id}
-                            className="cards__item" 
-                            src={require(`${item.src}`)}
-                            alt=""
-                        />
-                    ))}
+                    <div className='cards-line'>
+                        {cards.map((item)=>(
+                            <img
+                                key={item.id}
+                                className="cards__item" 
+                                src={require(`${item.src}`)}
+                                alt=""
+                            />
+                        ))}
+                    </div>
                 </section>
                 <div className='wrapper-button'>
                     <img 

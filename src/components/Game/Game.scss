@@ -25,6 +25,16 @@
             margin-top: 4.37rem;
         }
 
+        @media screen and (max-width: 800px) {
+
+            .game__logo {
+                width: 80%;
+                height: 5rem;
+        
+            }
+            
+        }
+
         .game__info {
             width: 100%;
             display: flex;
@@ -52,6 +62,54 @@
                 line-height: 13.31rem;
                 color: #FFFFFF;
                 text-shadow: 0px 0px 5.75rem #326328;
+            }
+
+            @media screen and (max-width: 950px) {
+
+                .info__text {
+                    font-weight: 700;
+                    font-size: 1.5rem;
+  
+                }
+    
+                .info__count {
+                    font-weight: 700;
+                    font-size: 5rem;
+
+                }
+                
+            }
+
+            @media screen and (max-width: 650px) {
+
+                .info__text {
+                    font-weight: 700;
+                    font-size: 1.25rem;
+  
+                }
+    
+                .info__count {
+                    font-weight: 700;
+                    font-size: 3.5rem;
+
+                }
+                
+            }
+
+            @media screen and (max-width: 450px) {
+
+                .info__text {
+                    font-weight: 700;
+                    font-size: 1rem;
+  
+                }
+    
+                .info__count {
+                    font-weight: 700;
+                    font-size: 2.5rem;
+
+                }
+                
             }
 
         }

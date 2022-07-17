@@ -49,9 +49,33 @@
 
             }
 
+            @media screen and (max-width: 1000px) {
+
+                .events__title {
+                    width: 100%;
+                    text-align: center;
+                }
+    
+                .event__date {
+                    width: 100%;
+                    text-align: center;
+                }
+    
+                .event__title {
+                    width: 100%;
+                    text-align: center;
+                }
+    
+                .event__text {
+                    width: 100%;
+                    text-align: center;
+                }
+                
+            }
+
         }
 
-        .block-left {
+        .block-right {
             padding-left: 6.43rem;
             border-left: 1px solid rgba(255, 255, 255, 0.1);
 
@@ -86,8 +110,56 @@
 
             }
 
+            @media screen and (max-width: 1000px) {
+
+                .blockchain__title {
+                    width: 100%;
+                    text-align: center;
+                }
+    
+                .blockchain__item {
+                    width: 100%;
+                    text-align: center;
+                }
+                
+            }
+
         }
 
+        @media screen and (max-width: 1000px) {
+
+            .events-block {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+          
+            }
+
+            .block-right {
+                padding: 0;
+                border: none;
+                padding-top: 6.43rem;
+                margin-top: 2.5rem;
+                border-top: 1px solid rgba(255, 255, 255, 0.1);
+            }
+            
+        }
+
+    }
+
+    @media screen and (max-width: 1000px) {
+
+        .events-wrapper {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+      
+        }
+        
     }
 
 }

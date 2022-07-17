@@ -41,11 +41,13 @@ function MyNft({setCardID}) {
                 <section className="mynft__cards">
                     {nft.map((item)=>(
                         <Link to={`/nft/page/${item.id}`} onClick={()=>openPageCard(item.id)}>
-                            <img 
-                                key={item.id}
-                                className="mynft__cards-item" 
-                                src={require(`${item.src}`)} 
-                            />
+                            <div className="cards__image-wrapper">
+                                <img 
+                                    key={item.id}
+                                    className="mynft__cards-item" 
+                                    src={require(`${item.src}`)} 
+                                />
+                            </div>
                         </Link>
                     ))}
                 </section>

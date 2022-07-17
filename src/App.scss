@@ -65,7 +65,7 @@ li {
 
 button {
   cursor: pointer;
-  // transition: 0.3s;
+  transition: 0.3s;
 
   // &:hover {
   //     transform: scale(1.05);
@@ -79,6 +79,15 @@ button {
 
 .content-wrapper {
   width: 76rem;
+}
+
+@media screen and (max-width: 1200px) {
+
+  .content-wrapper {
+    width: 90%;
+
+  }
+  
 }
 
 .content-line {

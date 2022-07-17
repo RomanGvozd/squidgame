@@ -22,7 +22,7 @@ function ModalBalance({setShow}) {
                         Адресс пополнения:
                     </p>
                     <p className="address__subtitle">
-                        0:1aede8338285bc956870f344637505ee854881e5d5448<br/>be0d8277b74b83a26ca
+                        0:1aede8338285bc...
                     </p>
                 </div>
                 <Select 

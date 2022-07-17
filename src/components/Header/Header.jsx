@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { useDispatch, useSelector } from "react-redux";
 import { Link, useLocation } from "react-router-dom";
 
@@ -11,6 +11,8 @@ function Header() {
     const dispatch = useDispatch();
 
     const { pathname } = useLocation();
+
+    const [showNav, setShowNav] = useState(false)
 
     const {
         Marketplace,
@@ -27,28 +29,40 @@ function Header() {
                     src={require('./image/logo.svg').default} 
                 />
             </Link>
-            <nav className="header__nav">
+            <div className='nav__open-wrapper'>
+                <button className='nav__open' onClick={()=>setShowNav(true)}>
+                    <span></span>
+                </button>
+            </div>
+            <nav className={showNav ? "header__nav header__nav-active" : "header__nav"}>
+                <button className='nav__close' onClick={()=>setShowNav(false)}>
+                    <div lassName='nav__close-wrapper'></div>
+                </button>
                 <Link 
                     to="/nft" 
                     className={pathname === "/nft" ? "nav__item nav__item-active" : "nav__item"}
+                    onClick={()=>setShowNav(false)}
                 >
                     NFT
                 </Link>
                 <Link 
                     to="/marketplace" 
                     className={pathname === "/marketplace" ? "nav__item nav__item-active" : "nav__item"}
+                    onClick={()=>setShowNav(false)}
                 >
                     {Marketplace}
                 </Link>
                 <Link 
                     to="/roulette" 
                     className={pathname === "/roulette" ? "nav__item nav__item-active" : "nav__item"}
+                    onClick={()=>setShowNav(false)}
                 >
                     {Roulette}
                 </Link>
                 <Link 
                     to="/game" 
                     className={pathname === "/game" ? "nav__item nav__item-active" : "nav__item"}
+                    onClick={()=>setShowNav(false)}
                 >
                     {Game}
                 </Link>
